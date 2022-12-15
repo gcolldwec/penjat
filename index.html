@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./imatges/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="container" class="container-fluid">
+            <div class="row" >
+                <div class="col-xl-3" id="pic">
+                    <img id="logo" src="/imatges/logo.jpeg" alt="logo">
+                </div>
+                
+                <div class="col-xl-5 d-flex justify-content-center" id="col">
+                    <h1 id="titol">Penjat</h1> 
+                </div> 
+                <div class="col-xl-4 d-flex justify-content-center" id="col">
+                </div> 
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="contingut" class="container-fluid">
+            <div class="row">
+                <div class="col-xl-4" id="subpanel0">
+                    <div class="row">
+                        <div class="col-xl-4 d-flex justify-content-end">
+                            <div>
+                                <h6 id="opor">Oportunitats</h6>
+                            </div> 
+                        </div>
+                        <div class="col-xl-4 d-flex justify-content-center">
+                            <div>
+                                <h6 id="temps">Temps de joc</h6>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="row" id="subpanel">
+                        <div class="col-xl-3">
+                            <div class="d-flex justify-content-end" id="oportunitats"></div>
+                        </div>
+                        <div class="col-xl-1"></div>
+                        <div class="col-xl-4 d-flex justify-content-center">
+                            <div>
+                                <div id="display"></div>
+                            </div> 
+                        </div>
+                        <div class="col-xl-4 d-flex justify-content-center">
+                            <p id="countdown"></p>
+                        </div>
+                        <div class="col-xl-12 d-flex justify-content-center" id="result">
+                            <p id="resultat"></p>
+                            <p id="record"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 d-flex justify-content-center">
+                            <input type="text" name="lletra" id="lletra" placeholder="Introdueixi la lletra que consideri" maxlength="1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="col-xl-12 d-flex align-items-center justify-content-center" id="paraulaSecreta"></p>
+                            <p class="col-xl-12 d-flex align-items-center justify-content-center" id="titolError">Errors</p>
+                            <p class="col-xl-12 d-flex align-items-center justify-content-center" id="errors"></p>
+                            <p class="col-xl-12 d-flex align-items-center justify-content-center" id="titolHistorial">Historial</p>
+                            <p class="col-xl-12 d-flex align-items-center justify-content-center" id="historial"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="row">
+                        <div class="col-xl-2"></div>
+                        <div class="col-xl-2">
+                            
+                        </div>
+                        <div class="col-xl-12 d-flex justify-content-center mt-5"  id="imatge">
+                            <div class="container" id="horca"></div>  
+                        </div>
+                        <div class="col-xl-4 d-flex justify-content-center">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div  class="col-xl-12 mb-5">
+                            <img src="/imatges/public.png" alt="public" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

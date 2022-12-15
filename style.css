@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 221);
+}
+#container{
+    background-color: rgb(88, 55, 2);
+}
+#logo{
+    height: 12vh;
+    width: 12vh;
+    border-radius: 70px;
+    margin: 10px;
+}
+#pic{
+    background-color: rgb(88, 55, 2);  
+}
+#titol{
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: antiquewhite;
+    font-family: 'MedievalSharp';
+    background-color: rgb(88, 55, 2); 
+}
+#row{
+    background-color:rgb(88, 55, 2); 
+    display: flex;
+    align-items: center;
+    
+}
+#col{
+    background-color: rgb(88, 55, 2); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contingut{
+    height: 150px;
+}
+#subpanel0{
+    margin-top: 150px;
+}
+#paraulaSecreta{
+    font-size: 50px;
+}
+#lletra{
+    width: 235px;
+}
+#countdown{
+    font-size: 25px;
+    color: brown;
+}
+#oportunitats{
+    font-size: 25px;
+    color: rgb(118, 160, 90);
+}
+#display{
+    font-size: 25px;
+    color: rgb(118, 160, 90);
+}
+#resultat{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+#result{
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+}
+#opor{
+    font-size: 20px;   
+}
+#temps{
+    font-size: 20px;   
+}
